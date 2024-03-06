@@ -33,8 +33,17 @@ def zad4():
             print("Nie jest to trójkąt prostokątny")
     else:
         print("Podano złe długości")
+        
+#Zadanie 6
+def zad6():
+    a = 1
+    b = 4
+    ile = 10
+    while ile > 0:
+        a*=a*b
+        ile-=1
+    print(a)
 """
-
 #Zadanie 7
 def zad7():
     p = int(input("Podaj liczbe: "))
@@ -42,10 +51,13 @@ def zad7():
         print("Blad")
     else:
         print("Pierwiastek z",p,"wynosi",p**(1/2))
+"""
+
 
 def main():
 #    zad1()
 #    zad2()
 #    zad4()
+#    zad6()
 #    zad7()
 main()
