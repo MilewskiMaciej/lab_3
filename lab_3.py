@@ -33,7 +33,16 @@ def zad4():
             print("Nie jest to trójkąt prostokątny")
     else:
         print("Podano złe długości")
-        
+       
+#Zadanie 5
+def zad5():
+    a = 5
+    b = 4
+    h = 6
+    pole = (1/2)*(a+b)*h
+    print("Pole trapezu o bokach",a,"i",b,"wynosi",pole)
+
+"""
 #Zadanie 6
 def zad6():
     a = 1
@@ -43,7 +52,7 @@ def zad6():
         a*=a*b
         ile-=1
     print(a)
-"""
+
 #Zadanie 7
 def zad7():
     p = int(input("Podaj liczbe: "))
@@ -51,13 +60,13 @@ def zad7():
         print("Blad")
     else:
         print("Pierwiastek z",p,"wynosi",p**(1/2))
+
 """
-
-
 def main():
 #    zad1()
 #    zad2()
 #    zad4()
+#    zad5()
 #    zad6()
 #    zad7()
 main()
