@@ -35,8 +35,17 @@ def zad4():
         print("Podano złe długości")
 """
 
+#Zadanie 7
+def zad7():
+    p = int(input("Podaj liczbe: "))
+    if p < 0:
+        print("Blad")
+    else:
+        print("Pierwiastek z",p,"wynosi",p**(1/2))
+
 def main():
 #    zad1()
 #    zad2()
 #    zad4()
+#    zad7()
 main()
