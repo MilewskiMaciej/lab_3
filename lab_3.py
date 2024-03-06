@@ -1,3 +1,5 @@
+import math
+"""
 import random
 #Zadanie 1
 def zad1():
@@ -51,21 +53,25 @@ def zad6():
         a*=a*b
         ile-=1
     print(a)
-
+"""
 #Zadanie 7
 def zad7():
-    p = int(input("Podaj liczbe: "))
-    if p < 0:
+    # p = int(input("Podaj liczbe: "))
+    # result = math.sqrt(p)
+    # print(result)
+    try:
+        p = int(input("Podaj liczbe: "))
+        result = math.sqrt(p)
+        print(result)
+    except ValueError:
         print("Blad")
-    else:
-        print("Pierwiastek z",p,"wynosi",p**(1/2))
 
 def main():
-    zad1()
-    zad2()
-    zad3()
-    zad4()
-    zad5()
-    zad6()
+#    zad1()
+#    zad2()
+#    zad3()
+#    zad4()
+#    zad5()
+#    zad6()
     zad7()
 main()
