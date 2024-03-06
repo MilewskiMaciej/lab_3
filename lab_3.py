@@ -1,6 +1,5 @@
 import random
 #Zadanie 1
-"""
 def zad1():
     a = [i for i in range(1,11)]
     b = [4**j for j in range(0,8)]
@@ -19,7 +18,8 @@ def zad2():
 #Zadanie 3
 def zad3():
     produkty = {'jajka': 7, 'maka': '3kg', 'bulki': 5, 'cukier': '1kg'}
-    lista = []
+    lista = [prod for prod in produkty.values() if isinstance(prod, int)]
+    print(lista)
 
 #Zadanie 4
 def zad4():
@@ -42,7 +42,6 @@ def zad5():
     pole = (1/2)*(a+b)*h
     print("Pole trapezu o bokach",a,"i",b,"wynosi",pole)
 
-"""
 #Zadanie 6
 def zad6():
     a = 1
@@ -61,12 +60,12 @@ def zad7():
     else:
         print("Pierwiastek z",p,"wynosi",p**(1/2))
 
-"""
 def main():
-#    zad1()
-#    zad2()
-#    zad4()
-#    zad5()
-#    zad6()
-#    zad7()
+    zad1()
+    zad2()
+    zad3()
+    zad4()
+    zad5()
+    zad6()
+    zad7()
 main()
